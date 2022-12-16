@@ -31,4 +31,4 @@ while True:
   # Check if the player has won
   if not any('B' in row for row in grid):
     print("You won!")
-break
+  break
