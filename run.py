@@ -11,7 +11,7 @@ while True:
     grid[x][y] = 'X'
 
 #print the grid
-    for row in grid
+    for row in grid:
     print(''join (row))
 
 # Get the player's guess
