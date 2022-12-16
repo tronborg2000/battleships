@@ -1,6 +1,8 @@
 # Battleships
 A simple implementation of the classic board game "Battleships" in Python.
 
+![Heroku](Images/Screenshot%202022-12-16%20at%2010.33.17.png)
+
 # Features
 - 5x5 grid for gameplay
 - Place battleships at random positions on the grid
@@ -18,6 +20,9 @@ A simple implementation of the classic board game "Battleships" in Python.
 - To test the Battleships game, you can run the run.py script and follow the prompts to make guesses. You can also modify the code to add additional test cases or debug any issues.
 
 # Deployment
+- Heroku - https://battleships-by-colin.herokuapp.com/ 
+- ![Heroku](Images/Screenshot%202022-12-16%20at%2010.33.17.png)
+- github repository- https://github.com/tronborg2000/battleships 
 - To deploy the Battleships game on Heroku, follow these steps:
 
 - Sign up for a Heroku account if you don't already have one.
@@ -37,6 +42,7 @@ heroku open
 # Credits
 
 - Slack overflow 
-- Code Bro Videos [ ]
+- Code Bro Videos https://www.youtube.com/watch?v=bfRwxS5d0SI 
+- arjancodes https://www.youtube.com/watch?v=u3yo-TjeIDg 
 
-- This Battleships game was developed by [Your Name]. The code was based on a tutorial by OpenAI.
+- This Battleships game was developed by Colin Weldon. The code was based on a tutorial by OpenAI.
