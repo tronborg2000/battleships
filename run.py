@@ -6,17 +6,20 @@ grid = [[' ' for _ in range(5)] for _ in range (5)]
 #main game loop
 
 while True:
-    x = random.randint(0, 4)
-    y = random.randint(0, 4)
-    grid[x][y] = 'X'
+  # Place a battleship at a random position
+  x = random.randint(0, 4)
+  y = random.randint(0, 4)
+  grid[x][y] = 'B'
 
-#print the grid
-    for row in grid:
-    print(''join (row))
+  # Print the grid
+  for row in grid:
+    print(' '.join(row))
+  print()
 
-# Get the player's guess
+  # Get the player's guess
   x = int(input("Enter the x coordinate of your guess: "))
   y = int(input("Enter the y coordinate of your guess: "))
+
 
   # Check if the guess is a hit or a miss
   if grid[x][y] == 'B':
@@ -28,4 +31,4 @@ while True:
   # Check if the player has won
   if not any('B' in row for row in grid):
     print("You won!")
-    break
+break
